@@ -44,7 +44,7 @@ interface IERC20 {
      * condition is to first reduce the spender's allowance to 0 and set the
      * desired value afterwards:
      * 
-     * https://github.com/ActiviCoin/activicoinBSC20
+     * https://github.com/ActiviCoin/activicoinBSC20/edit/main/activicoin.sol
      * Emits an {Approval} event.
      */
     function approve(address spender, uint256 amount) external returns (bool);
